@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Course Form</title>
+    </head>
+    <body>
+        <form action="CourseFormSucc.html" method="post">
+            First Name:
+            <input type="text" id="myfirstname" required>
+            <br><br>
+            Last Name :
+            <input type="text" id="mylastname"> 
+            <br><br>
+            Email :
+            <input type="email" id="myemail" required>
+            <br><br>
+            Address :
+            <textarea rows="3" cols="30" name="address" id="address"></textarea>
+            <br><br>
+            Contact :
+            <input type="number" id="mynumber" placeholder="+91 xxxxx xxxxx">
+            <br><br>
+            Course :
+            <select name="Course">
+                <option value="fsd">FSD</option>
+                <option value="pgt">PGT</option>
+                <option value="cibop">CIBOP</option>
+            </select>
+            <br><br>
+            Fee :
+            <select name="fees">
+                <option value="85k">85000</option>
+                <option value="90k">90000</option>
+                <option value="12.5l">125000</option>
+            </select>
+            <br><br>
+            Duration :
+            <select name="duration">
+                <option value="6M">6month</option>
+                <option value="8M">8month</option>
+                <option value="10M">10month</option>
+            </select>
+            <br><br>
+            Resume :
+            <input type="file" name="upload" id="select-file">
+            <br><br>
+
+            <button type="reset">Reset</button>
+            <button type="submit">submit</button>
+
+        </form>
+    </body>
+</html>

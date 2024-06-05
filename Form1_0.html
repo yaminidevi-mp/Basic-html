@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Radio Button & Checkbox</title>
+    </head>
+    <body>
+        <form action="Form1.html" method="post">
+           
+            Radio button : <!--Radio button can select either one of the mentioned content-->
+            <input type="radio" name="gender" id="male"> Male
+            <input type="radio" name="gender" id="female"> Female
+            <br><br>
+
+            Check box : <!--Check box is used to select more than a option of the content-->
+            <input type="checkbox" name="sports" id="soccer">soccer
+            <input type="checkbox" name="sports" id="football">Football
+            <input type="checkbox" name="sports" id="volleyball">Volleyball
+            <br><br>
+
+            Select box : <!--select box is used to upload the files or data in form of jpg,png,pdf,doc and etc..-->
+            <input type="file" name="upload" id="file-select">
+            <br><br>
+
+            
+            Address box : <!--Text area is used to create a text area in which the address is enterred-->
+            <textarea rows="3" cols="30" name="address" id="address"></textarea>
+            <br><br>
+
+            Select box : <!--select box is also a drop down box where the data can be selected one time-->
+            <select name="city">
+                <option value="CBE">Coimbatore</option>
+                <option value="CHE">Chennai</option>
+                <option value="TRP">Trichy</option>
+            </select>
+            <br><br>
+
+            Select color : <!--we can select color can choose a color-->
+            <input type="color" value="#00ff00" id="mycolor">
+            <br><br>
+            Select date : <!--we can select the date which is mentioned -->
+            <input type="date" value="2024-04-08" id="mydate">
+            <br><br>
+
+            Select datetime : <!--we can select the datetime-->
+            <input type="datetime-local" id="mydatetime">
+            <br><br>
+
+            Email or Required attribute :
+            <input type="email" id="myemail required" >
+            <br><br>
+
+            Month :
+            <input type="month" id="mymonth">
+            <br><br>
+
+            Number : <!--Step attribute = it is used to create the range between the elemnts-->
+            <lable for="mynumber">Enter Number</lable>
+            <input type="number" min="1" max="10" step="0">
+            <br><br>
+
+            Search website : <!--it act as a searh engine-->
+            <input type="search" id="mysearch">
+            <br><br>
+            
+            Contact : <!--it get the contact number there are many type:tel(in which it collect numbers and alphabet)
+                                                                       :number(in which it collects only the numbers) -->
+            <input type="tel" id="myphone" placeholder="+91 xxxxxxxxxx">
+            <br><br>
+
+            Time : <!--we can set time in thi area-->
+            <input type="time" id="mytime">
+            <br><br>
+
+            URL : <!--can enter url in this area and it shows the validation if the entered text is not a url here-->
+            <input type="url" id="myurl" required>
+            <br><br>
+
+            Select week :
+            <input type="week" id="myweek">
+            <br><br>
+        
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+
+        </form>
+    </body>
+</html>
